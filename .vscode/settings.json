@@ -1,0 +1,24 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "prettier.requireConfig": true,
+  "material-icon-theme.folders.associations": {
+    "domains": "Src",
+    "presentation": "Controller",
+    "docs": "Docs"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+    "javascript": "javascript",
+    "typescript": "typescript"
+  },
+  "files.associations": {
+    "tailwind.scss": "tailwindcss"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

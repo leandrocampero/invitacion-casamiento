@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "vivaxy.vscode-conventional-commits",
+    "editorconfig.editorconfig",
+    "irongeek.vscode-env",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "oderwat.indent-rainbow",
+    "ms-vscode.vscode-typescript-next",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "vue.vscode-typescript-vue-plugin",
+    "vue.volar"
+  ]
+}
