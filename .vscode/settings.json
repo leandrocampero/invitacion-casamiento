@@ -18,7 +18,7 @@
     "typescript": "typescript"
   },
   "files.associations": {
-    "tailwind.scss": "tailwindcss"
+    "main.scss": "tailwindcss"
   },
   "typescript.tsdk": "node_modules/typescript/lib"
 }

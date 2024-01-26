@@ -1,5 +1,5 @@
 <template>
-  <main class="m-10 bg-slate-200">
+  <main class="tw-m-10 tw-bg-slate-200">
     <slot />
   </main>
 </template>
