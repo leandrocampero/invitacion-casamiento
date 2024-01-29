@@ -8,11 +8,13 @@
       <v-container>
         <v-row no-gutters align="center">
           <v-col cols="3" md="1" class="mr-4">
-            <AppBarIcon />
+            <icons-app-bar class="tw-max-h-12" />
           </v-col>
 
           <v-col>
-            <v-app-bar-title>Boda Lour y Lean</v-app-bar-title>
+            <v-app-bar-title class="serif-font">
+              <span class="tw-text-2xl sm:tw-text-3xl"> Boda Lour y Lean </span>
+            </v-app-bar-title>
           </v-col>
 
           <nav-bar v-if="!mobile" :links="links" />
@@ -21,10 +23,12 @@
     </v-app-bar>
 
     <v-navigation-drawer v-if="mobile" v-model="drawer" location="right">
-      <nav-bar :links="links" direction="vertical" />
+      <div class="tw-flex tw-h-full tw-flex-col tw-justify-center">
+        <nav-bar :links="links" direction="vertical" />
+      </div>
     </v-navigation-drawer>
 
-    <main class="tw-pt-16 tw-min-h-dvh">
+    <main class="tw-min-h-dvh tw-pt-16">
       <slot />
     </main>
   </v-app>
@@ -32,7 +36,6 @@
 
 <script setup lang="ts">
 import { useDisplay } from 'vuetify'
-import AppBarIcon from '../components/icons/AppBar.vue'
 
 const { mobile } = useDisplay()
 
