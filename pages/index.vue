@@ -327,15 +327,6 @@
     >
       Lour y Lean
     </div>
-
-    <div class="tw-fixed tw-bottom-1 tw-right-2">
-      <v-btn
-        :icon="isPlaying ? 'mdi-pause' : 'mdi-play'"
-        variant="flat"
-        color="red-lighten-4"
-        @click="handleAudio"
-      />
-    </div>
   </div>
 </template>
 
@@ -346,7 +337,6 @@ import srcImgCena from '~/assets/images/cena-egresados.jpg'
 import srcImgJardinJapones3 from '~/assets/images/jardin-japones-3.jpg'
 import srcImgRings from '~/assets/images/rings-desktop.webp'
 import PartyIcon from '~/components/icons/PartyIcon.vue'
-import { useSoundPlayer } from '~/composables/useSoundPlayer'
 import { useTimeDifference } from '~/composables/useTimeDifference'
 import { EVENT_TIMESTAMP } from '~/constants'
 
@@ -363,8 +353,6 @@ const imgCena = ref(srcImgCena)
 const { remainingTime, eventDate } = useTimeDifference(
   new Date(EVENT_TIMESTAMP)
 )
-
-const { handleAudio, isPlaying } = useSoundPlayer()
 
 const eventURL = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20Lourdes%20y%20Leandro&dates=20240908T123000Z%2F20240908T210000`
 </script>
