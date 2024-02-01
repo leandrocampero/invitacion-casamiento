@@ -44,6 +44,5 @@ const drawer = ref(false)
 const links = ref([
   { to: '/', name: 'Inicio' },
   { to: '/galeria', name: 'Galeria' },
-  { to: '/contacto', name: 'Contacto' },
 ])
 </script>
