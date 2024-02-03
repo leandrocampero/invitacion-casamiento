@@ -152,22 +152,21 @@
     <v-sheet class="pa-8">
       <v-row justify="center" align="center">
         <v-col cols="12" md="4" order-md="last" class="">
-          <div class="serif-font tw-mb-2 tw-text-6xl">El mejor regalo</div>
-
-          <div class="tw-text-2xl">
-            para nosotros es <span class="tw-font-bold">QUE SEAS PARTE</span> de
-            nuestra celebración.
+          <div class="serif-font tw-mb-2 tw-text-6xl md:tw-text-5xl">
+            Tu presencia será nuestro mayor regalo
           </div>
 
           <div class="tw-text-2xl">
-            Por eso pedimos tu colaboración con el valor de tu tarjeta. El valor
-            de la misma es de
-            <span class="tw-font-bold">$ 17.400 </span>
-            <span class="tw-italic">(hasta el 29/02)</span>. Menores de 11 pagan
-            la mitad, menores de 4 no pagan.
+            por eso te pedimos que abones tu tarjeta con
+            <span class="tw-font-bold">$ 17.400 </span> (valor hasta el 29/2).
+            Menores de 11 pagan la mitad, menores de 4 no pagan.
           </div>
-
-          <div class="tw-text-2xl tw-font-bold">Esperamos contar con vos.</div>
+          <div class="tw-text-2xl">
+            De esa forma nos ayudas a cumplir nuestro sueño.
+            <span class="text-upper tw-font-bold">
+              Esperamos contar con vos</span
+            >.
+          </div>
 
           <v-row
             no-gutters
@@ -339,6 +338,10 @@ import srcImgRings from '~/assets/images/rings-desktop.webp'
 import PartyIcon from '~/components/icons/PartyIcon.vue'
 import { useTimeDifference } from '~/composables/useTimeDifference'
 import { EVENT_TIMESTAMP } from '~/constants'
+
+useHead({
+  title: 'Boda de Lour y Lean | Invitación',
+})
 
 definePageMeta({
   layout: 'default',

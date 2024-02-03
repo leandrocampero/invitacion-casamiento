@@ -24,6 +24,10 @@ import srcJardinJapones2 from '~/assets/images/jardin-japones-2.jpg'
 import srcJardinJapones3 from '~/assets/images/jardin-japones-3.jpg'
 import srcPlaya from '~/assets/images/playa.jpg'
 
+useHead({
+  title: 'Boda de Lour y Lean | Galería',
+})
+
 const images = reactive([
   srcAbrazo,
   srcAquarium,

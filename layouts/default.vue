@@ -8,13 +8,19 @@
       <v-container>
         <v-row no-gutters align="center">
           <v-col cols="3" md="1" class="mr-4">
+            <nuxt-link to="/">
             <icons-app-bar class="tw-max-h-12" />
+            </nuxt-link>
           </v-col>
 
           <v-col>
+            <nuxt-link to="/">
             <v-app-bar-title class="serif-font">
-              <span class="tw-text-2xl sm:tw-text-3xl"> Boda Lour y Lean </span>
+                <span class="tw-text-2xl sm:tw-text-3xl">
+                  Boda Lour y Lean
+                </span>
             </v-app-bar-title>
+            </nuxt-link>
           </v-col>
 
           <nav-bar v-if="!mobile" :links="links" />
