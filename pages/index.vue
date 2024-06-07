@@ -158,8 +158,8 @@
 
           <div class="tw-text-2xl">
             por eso te pedimos que abones tu tarjeta con
-            <span class="tw-font-bold">$ 24.500 </span> (valor hasta el 31/5).
-            Menores de 11 pagan $ 9.900, menores de 4 no pagan. Se puede ir
+            <span class="tw-font-bold">$ 26.700 </span> (valor hasta el 30/6).
+            Menores de 11 pagan $ 10.800, menores de 4 no pagan. Se puede ir
             pagando de una tarjeta.
           </div>
           <div class="tw-text-2xl">
