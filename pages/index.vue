@@ -301,7 +301,7 @@
             rounded="0"
             :ripple="false"
             size="large"
-            href="https://open.spotify.com/playlist/4m4m2wIQSJodw3myMq7Bh9?si=39bc7bacac364a7a&pt=b4aad93532f6a9da4fd624009c8ff3dc"
+            href="https://open.spotify.com/playlist/4m4m2wIQSJodw3myMq7Bh9?si=983155b2f46f436b&pt=7ab3e6456e8f2820781e6e2fb4e07f65"
             target="_blank"
           >
             <span class="text-capitalize tw-text-xl tw-font-bold tw-text-white">
