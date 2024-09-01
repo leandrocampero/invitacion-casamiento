@@ -1,4 +1,4 @@
-export const EVENT_TIMESTAMP = '2024-09-08T12:30:00'
+export const EVENT_TIMESTAMP = '2024-09-08T13:00:00'
 
 export const MS_PER_SECOND = 1000
 export const MS_PER_MINUTE = 60 * 1000

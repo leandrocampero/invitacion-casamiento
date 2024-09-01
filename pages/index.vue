@@ -157,13 +157,10 @@
           </div>
 
           <div class="tw-text-2xl">
-            por eso te pedimos que abones tu tarjeta con
-            <span class="tw-font-bold">$ 28.300 </span> (valor hasta el 25/8,
-            ¡ÚLTIMO MES!). Menores de 11 pagan $ 11.500, menores de 4 no pagan.
-            Se puede ir pagando de una tarjeta.
+            por eso te pedimos que seas
+            <span class="tw-font-bold"> PUNTUAL </span>
           </div>
           <div class="tw-text-2xl">
-            De esa forma nos ayudas a cumplir nuestro sueño.
             <span class="text-upper tw-font-bold">
               Esperamos contar con vos</span
             >.
